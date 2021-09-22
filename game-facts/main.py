@@ -1,5 +1,4 @@
 from fastapi import FastAPI, File,Response, Header
-from fastapi.responses import FileResponse, RedirectResponse
 from typing import Optional
 from deta import Deta
 from pydantic import BaseModel
@@ -7,12 +6,9 @@ import hashlib
 import jwt
 import uuid
 import json
-from datetime import datetime, timedelta
-from fastapi import File, UploadFile
+import random as Rand
 from fastapi.responses import HTMLResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
-from math import radians, cos, sin, asin, sqrt
-import time
 
 app = FastAPI()
 a = "c00viw7z_4Rj2TKrz3WGG3"
@@ -29,3 +25,28 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {"message": "Let's begin!"}
+
+
+# Minecraft
+@app.get("/minecraft/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('minecraft.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts

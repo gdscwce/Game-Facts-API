@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "fact": "Minecraft commenced as a little home experiment, and its creator Markus Persson, popularly known as Notch in the gaming industry, had doubts about the game’s popularity. We can all see how popular the game is now."
+    },
+    {
+        "id": 2,
+        "fact": "Minecraft was almost nicknamed Cave Game, but that doesn’t quite sound right. Well, we all like ‘Minecraft’ isn’t it?"
+    },
+    {
+        "id": 3,
+        "fact": "Cats are known to have nine lives, but they appear to have more in Minecraft. They appear to take no injuries no matter how hard they hit."
+    },
+    {
+        "id": 4,
+        "fact": "Creepers don’t have hands, but they can climb ladders with ease."
+    },
+    {
+        "id": 5,
+        "fact": "Even if thunderstorms strike during the day, you can sleep through them."
+    },{
+        "id": 6,
+        "fact": "When staring through ice, it is extremely difficult to see water in the game."
+    },
+    {
+        "id": 7,
+        "fact": "Minecraft boats can be destroyed by arrows, although boats will not shatter if they strike soul sand."
+    },
+    {
+        "id": 8,
+        "fact": "Always choose a sword if you’d like to quickly cut a melon."
+    },
+    {
+        "id": 9,
+        "fact": "Red flowers are more difficult to come by than yellow flowers for some cause."
+    },
+    {
+        "id": 10,
+        "fact": "Wear a pumpkin on your head if you want to be invisible to Endermen, and you’ll be OK."
+    },
+    {
+        "id": 11,
+        "fact": "A lead can be used to tow a horse from a boat on the water."
+    },
+    {
+        "id": 12,
+        "fact": "TNT does no damage to the surrounding terrain when it explodes in lava."
+    },
+    {
+        "id": 13,
+        "fact": "Pigs are capable of climbing vines and ladders."
+    },
+    {
+        "id": 14,
+        "fact": "If the fishing rod arrives on land, it will incur a twofold impact with a durability damage."
+    },
+    {
+        "id": 15,
+        "fact": "A creeper will drop a random music disc if a skeleton kills it."
+    }
+]
