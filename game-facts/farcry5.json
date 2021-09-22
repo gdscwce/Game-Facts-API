@@ -45,18 +45,26 @@
     },
     {
         "id": 12,
-        "fact": "An added tip is that you can use sprays even after you’re dead, and they’ll appear near the spot where you died. Use them if the enemy team got an unfavourable trade from killing you. They’re quite underrated for what they can do!"
+        "fact": "You should recruit all three Fangs for Hire ASAP"
     },
     {
         "id": 13,
-        "fact": "The idea of single-handedly leading your team to glory has been romanticized far too much – sure it’s fun to go gung-ho sometimes, but for the most part, doing so will not yield favorable results."
+        "fact": "Max out your Resistance Points in each region"
     },
     {
         "id": 14,
-        "fact": "An added tip is that you can use sprays even after you’re dead, and they’ll appear near the spot where you died. Use them if the enemy team got an unfavourable trade from killing you. They’re quite underrated for what they can do!"
+        "fact": "Complete challenges to earn perk points"
     },
     {
         "id": 15,
-        "fact": "Always pay attention to the time and the map"
+        "fact": "Keep an eye out for Prepper Stashes "
+    },
+    {
+        "id": 16,
+        "fact": "The Clutch Nixon time trials are worth doing"
+    },
+    {
+        "id": 17,
+        "fact": "You can throw your melee weapons"
     }
 ]

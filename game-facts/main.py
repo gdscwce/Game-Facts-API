@@ -92,3 +92,75 @@ async def read_item(limit: int = -1, random: bool = False):
     for i in range(limit):
         requiredFacts.append(allFacts[i])
     return requiredFacts
+
+# Farcry 5
+@app.get("/farcry5/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('farcry5.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts
+
+# CSGO
+@app.get("/csgo/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('csgo.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts
+
+# Siege
+@app.get("/rainbowsiege6/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('siege.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts
