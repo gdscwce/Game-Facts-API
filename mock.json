@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "category": ["", ""],
+        "platform": "",
+        "rating": 12,
+        "casting": {
+            "actors": [
+                "", ""
+            ],
+            "director": [
+                ""
+            ]
+        },
+        "poster": "https://www.imdb.com/title/tt9814458/mediaviewer/rm3169496833/",
+        "episodesCount": 12,
+        "description": "",
+        "releaseDate": "",
+        "seasons": ""
+    }
+]

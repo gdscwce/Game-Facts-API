@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile, Response, Header
+from fastapi import FastAPI, File,Response, Header
 from fastapi.responses import FileResponse, RedirectResponse
 from typing import Optional
 from deta import Deta
