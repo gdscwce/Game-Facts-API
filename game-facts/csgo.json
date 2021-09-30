@@ -58,5 +58,22 @@
     {
         "id": 15,
         "fact": "It is the first Counter-Striker game to have competitive matchmaking built-in"
+    },
+    {
+        "id": 16,
+        "fact": "The P250 has the most skins, at 19."
+    },
+    {
+        "id": 17,
+        "fact": "The M249 has the least skins, at 6."
+    },
+    {
+        "id": 18,
+        "fact": "The skins with the most words in their names are the Blood in the Water and The Fuschia Is Now."
+    },
+    {
+        "id": 20,
+        "fact": "The Tec-9 has the highest souvenir-to-skin ratio, at 7/13"
     }
+
 ]
