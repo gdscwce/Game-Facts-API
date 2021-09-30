@@ -75,12 +75,17 @@
         "id": 18,
         "fact": "Amanda's makeup becomes sloppier when she's drunk"
     },
+     {
+        "id": 19,
+        "fact": "Michael's voice actor has a hearing impairment"
+    },
+    
     {
-        "id":19,
+        "id":20,
         "fact":"Birds can get sucked into the engine when you're flying."
     },
     {
-        "id":20,
+        "id":21,
         "fact":"If you drive at night with your headlights off, NPCs will flash theirs."
     }
 ]
