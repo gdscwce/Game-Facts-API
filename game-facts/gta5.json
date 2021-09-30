@@ -87,5 +87,9 @@
     {
         "id":21,
         "fact":"If you drive at night with your headlights off, NPCs will flash theirs."
-    }
+    },
+    {
+        "id": 4,
+        "fact": "In GTA V, if you’re talking on the phone while driving, you won’t be able to adjust your headlights because your hand is busy."
+    },
 ]
