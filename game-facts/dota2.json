@@ -63,8 +63,23 @@
     {
         "id": 16,
         "fact": "Clockwerk used to be a clockmaker, until his village got ransacked and his father told him with his dying breath to make war, not clocks."
-    }
+    },
     
+    {
+        "id": 17,
+        "fact": " Use Gold, HP, MANA & XP as Resource"
+    },
+    
+     {
+        "id": 18,
+        "fact": "Lone Druid had a child."
+    },
+    
+    
+     {
+        "id": 19,
+        "fact": "When Ursa was still a cub, Lone Druid lost a finger to him. They remain great friends to this day."
+    }
     
         
 ]
