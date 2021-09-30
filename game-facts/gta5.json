@@ -62,5 +62,9 @@
     {
         "id": 16,
         "fact": "If someone is in a chair, you can kick the chair from under them."
+    },
+    {
+        "id": 17,
+        "fact": "Players can get stuck ragdolling permanently in some spots"
     }
 ]
