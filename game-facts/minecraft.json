@@ -65,5 +65,9 @@
     {
         "id": 17,
         "fact": "Persson's avatar in the game is the only one who drops an apple when he dies."
+    },
+    {
+        "id": 18,
+        "facAt": "Enchanted golden apples were earlier known as Notch apples, Notch being the name of creator of the game, and were craftable with 8 golden blocks and an apple."
     }
 ]
