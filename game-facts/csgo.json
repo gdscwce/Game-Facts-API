@@ -74,6 +74,26 @@
     {
         "id": 20,
         "fact": "The Tec-9 has the highest souvenir-to-skin ratio, at 7/13"
+    },
+    {
+        "id": 21,
+        "fact": "The M249 also has the least StatTraks, at 2."
+    },
+    {
+        "id": 22,
+        "fact": "None of the default pistols have a consumer grade skin."
+    },
+    {
+        "id": 23,
+        "fact": "The Man-o'-War is the only skin to use an apostrophe in its name."
+    },
+    {
+        "id": 24,
+        "fact": "At 12 skins, the PP-Bizon has the most skins with multiple words in their names out of any gun."
+    },
+    {
+        "id": 25,
+        "fact": "The 龍王 (Dragon King) is the only skin to use hanzi characters or parentheses in its name."
     }
 
 ]
