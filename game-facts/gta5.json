@@ -66,5 +66,9 @@
     {
         "id": 17,
         "fact": "Players can get stuck ragdolling permanently in some spots"
+    },
+    {
+        "id": 18,
+        "fact": "Players can drive boats in bizarre ways"
     }
 ]
