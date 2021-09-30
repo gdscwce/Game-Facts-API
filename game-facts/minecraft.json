@@ -85,7 +85,14 @@
     {
         "id": 22,
         "fact": "Enchanted golden apples were earlier known as Notch apples, Notch being the name of creator of the game, and were craftable with 8 golden blocks and an apple."
-    }
-            
+    },
+    {
+        "id": 23,
+        "fact": "Endermen hate water, also the rain."
+    },
+    {
+        "id": 24,
+        "fact": "An endermite is the smallest hostile mob. Endermen attack an endermite within 64 blocks."
+    }       
 
 ]
