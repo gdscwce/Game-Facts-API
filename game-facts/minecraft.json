@@ -68,6 +68,20 @@
     },
     {
         "id": 18,
+
         "fact": "Ghasts are voiced by a Sleeping Cat."
+        "fact": "Enchanted golden apples were earlier known as Notch apples, Notch being the name of creator of the game, and were craftable with 8 golden blocks and an apple."
+    },
+    {
+        "id": 19,
+        "fact": "Ghasts are voiced by a sleeping cat."
+    }
+    {
+        "id": 20,
+        "fact": " Most people think that the language Endermen speaks does not make any sense, but the truth is the language is English itself."
+    }
+    {
+        "id": 21,
+        "fact": "Minecraft's most famous hostile mob was created by the developers because of a fault in the game's codes."
     }
 ]
