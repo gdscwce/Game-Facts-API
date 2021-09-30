@@ -57,5 +57,10 @@
     {
         "id": 15,
         "fact": "A creeper will drop a random music disc if a skeleton kills it."
+    },
+    {
+        "id": 16,
+        "fact": "Persson's avatar in the game is the only one who drops an apple when he dies."
     }
+    
 ]
