@@ -91,9 +91,13 @@
     {
         "id": 22,
         "fact": "Furion isn’t the full name of Nature’s Prophet"
-    },{
+    },
+    {
         "id":23,
         "fact": "There’s probably one hero that can exploit the bloodstone to the max and that is a hero you won’t even think of right now. Yes, If meepo has bloodstone, the death of clone will not reduce the bloodstone charges on meepo and you can have the maximum number of bloodstone charges on him without the worries of dying"
+    },
+    {"id":24,
+        "fact":"Dota 2 was the most played game on Steam for the longest time. "
     }
     
         
