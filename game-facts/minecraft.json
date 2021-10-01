@@ -93,6 +93,10 @@
     {
         "id": 24,
         "fact": "An endermite is the smallest hostile mob. Endermen attack an endermite within 64 blocks."
-    }       
+    },
+    {
+        "id": 25,
+        "fact": "One day in Minecraft is 20 minutes in real-time."
+    }
 
 ]
