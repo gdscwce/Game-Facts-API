@@ -119,9 +119,25 @@
 		"id": 31,
 		"fact": "Sledge and Thatcher are both microcosms of the operators from the embassy raid. Thatcher elite is named 'Operation Nimrod' same as the embassy operation and he is wearing a medal given by margeret thatcher herself"
 	},
-	 {
-        "id": 35,
-        "fact": " IGNOREMSG – DISABLES EVERYTHING"
-    }
+    {
+    "id": 32,
+    "fact": "Desert Eagle accuracy resets much faster while crouch shooting."
+  },
+  {
+    "id": 33,
+    "fact": "Molotov spreads more than incendiary but is $200 cheaper."
+  },
+  {
+    "id": 34,
+    "fact": "Ninjas in Pyjamas had the longest win streak of 87-0 win of all time until 2013."
+  },
+  {
+    "id": 35,
+    "fact": "Olofmeister was the only player in the world to make the playoffs at all Majors until he was eliminated in the New Legends Stage of the StarLadder Berlin Major 2019."
+  },
+  {
+    "id": 36,
+    "fact": "You run the fastest when you hold your knife or the bomb in hand."
+  }
 
 ]
