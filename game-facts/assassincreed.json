@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "fact": "The franchise started by accident"
+    },
+    {
+        "id": 2,
+        "fact": "The game’s back story stretches 2,500 years"
+    },
+    {
+        "id": 3,
+        "fact": "Assassin’s Creed is more successful than FIFA"
+    },
+    {
+        "id": 4,
+        "fact": "There have been 20 games on 15 platforms"
+    },
+    {
+        "id": 5,
+        "fact": "The series has spawned 10 novels"
+    },
+    {
+        "id": 6,
+        "fact": "Black Flag’s world is so big you can’t walk across it"
+    },
+    {
+        "id": 7,
+        "fact": "Evie Frye isn’t the first playable female assassin"
+    },
+    {
+        "id": 8,
+        "fact": "Ezio can assassinate fighting-game characters"
+    },
+    {
+        "id": 9,
+        "fact": "There’s a game of the game"
+    },
+    {
+        "id": 10,
+        "fact": "The next game is going back in time"
+    },
+    {}
+]
