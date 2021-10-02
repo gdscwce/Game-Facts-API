@@ -43,5 +43,9 @@
         "id": 11,
         "fact": "MARIO HAS APPEARED IN OVER 200 TITLES"
     },
+    {
+        "id": 12,
+        "fact": "Mario's first appearance was in Donkey Kong"
+    },
     {}
 ]
