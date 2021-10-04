@@ -47,5 +47,8 @@
         "id": 12,
         "fact": "Mario's first appearance was in Donkey Kong"
     },
-    {}
+    {
+        "id": 13,
+        "fact": " Goombas were the last enemy added to Super Mario Bros."
+    }
 ]
