@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 a = "c00viw7z_4Rj2TKrz3WGG3"
 deta = Deta(a+"xWuLkW711vRCifgJ4GR")
-
+# hey guys
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
