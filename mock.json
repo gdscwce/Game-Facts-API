@@ -1,7 +1,11 @@
 [
     {
         "id": 1,
+
         "name": "Some game",
+
+        "name": "sSwarangi",
+
         "category": ["", ""],
         "platform": "Windows",
         "rating": 13,
