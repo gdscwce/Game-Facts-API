@@ -19,4 +19,18 @@
         "releaseDate": "",
         "seasons": ""
     }
+      {
+        "id": 2,
+        "name": "",
+        "category": ["", ""],
+        "platform": "",
+        "rating": 13,
+        "casting": {
+            "actors": [
+                "", ""
+            ],
+            "director": [
+                ""
+            ]
+        },
 ]
