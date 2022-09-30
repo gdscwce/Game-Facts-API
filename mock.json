@@ -18,5 +18,25 @@
         "description": "",
         "releaseDate": "",
         "seasons": ""
+    },
+    {
+        "id": 2,
+        "name": "",
+        "category": ["", ""],
+        "platform": "",
+        "rating": 9.5,
+        "casting": {
+            "actors": [
+                "", ""
+            ],
+            "director": [
+                ""
+            ]
+        },
+        "poster": "https://www.imdb.com/title/tt9814458/mediaviewer/rm976989185/",
+        "episodesCount": 64,
+        "description": "",
+        "releaseDate": "",
+        "seasons": ""
     }
 ]
