@@ -18,10 +18,15 @@
         "id": 4,
         "fact": "Louis Vuitton is an Official League of Legends Partner"
     },
-  
+
     {
         "id": 5,
-        "fact": "Louis Vuitton is an Official League of Legends Partner"
+        "fact": "League of Legends has over 31,000,000 peak players per day"
+    },
+
+    {
+        "id": 6,
+        "fact": "14.44% of LoL players are from the United States"
     },
     
     {}
