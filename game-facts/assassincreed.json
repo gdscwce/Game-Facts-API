@@ -39,5 +39,8 @@
         "id": 10,
         "fact": "The next game is going back in time"
     },
-    {}
+    {
+        "id": 11,
+        "fact": "The games goes through two different time lines, the past and the present, simultaniously"
+    }
 ]
