@@ -95,7 +95,7 @@
         "id": 25,
         "fact": "The 龍王 (Dragon King) is the only skin to use hanzi characters or parentheses in its name."
     },
-	{
+	  {
 		"id": 26,
 		"fact": "CS:GO has hosted more professional esports tournaments than any other game."
 	},
@@ -138,16 +138,20 @@
   {
     "id": 36,
     "fact": "You run the fastest when you hold your knife or the bomb in hand."
-  }
+  },
 
   {
     "id": 37,
     "fact": "It is the first Counter-Striker game to have competitive matchmaking built-in."
-  }
+  },
  {
     "id": 38,
     "fact": "	Hot water will turn into ice faster than cold water."
-  }
-
-
+  },
+ {
+    "id": 38,
+    "fact": "	The Mona Lisa has no eyebrows."
+    "fact": "The sentence, 'The quick brown fox jumps over the lazy dog' uses every letter in the English language."
+    "fact": "The strongest muscle in the body is the tongue."
+  },
 ]
