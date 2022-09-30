@@ -23,6 +23,20 @@
         "releaseDate": "45/3/546",
         "seasons": ""
     }
+      {
+        "id": 3,
+        "name": "",
+        "category": ["", ""],
+        "platform": "",
+        "rating": 13,
+        "casting": {
+            "actors": [
+                "", ""
+            ],
+            "director": [
+                ""
+            ]
+        },
 ]
 
     {
