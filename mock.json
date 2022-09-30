@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "name": "",
+        "name": "Some game",
         "category": ["", ""],
-        "platform": "",
+        "platform": "Windows",
         "rating": 13,
         "casting": {
             "actors": [
@@ -16,7 +16,7 @@
         "poster": "https://www.imdb.com/title/tt9814458/mediaviewer/rm976989185/",
         "episodesCount": 12,
         "description": "",
-        "releaseDate": "",
+        "releaseDate": "45/3/546",
         "seasons": ""
     }
 ]
