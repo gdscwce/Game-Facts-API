@@ -146,12 +146,14 @@
   },
  {
     "id": 38,
-    "fact": "	Hot water will turn into ice faster than cold water."
+    "fact": "Hot water will turn into ice faster than cold water."
   },
- {
-    "id": 38,
-    "fact": "	The Mona Lisa has no eyebrows."
-    "fact": "The sentence, 'The quick brown fox jumps over the lazy dog' uses every letter in the English language."
-    "fact": "The strongest muscle in the body is the tongue."
+  {
+    "id": 39,
+    "fact": "The first person to ever get a kill in a competitive match was a player named 'Potti' who killed 'Gob B.'"
   },
+  {
+    "id": 40,
+    "fact": "The first ever competitive match was played on de_dust."
+  }
 ]

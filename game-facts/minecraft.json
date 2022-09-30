@@ -126,5 +126,13 @@
     {
         "id": 30,
         "fact": "The Rarest item in Minecraft is the Dragon Egg."
+    },
+    {
+        "id": 31,
+        "fact": "The first version of Minecraft was created in just six days."
+    },
+    {
+        "id": 32,
+        "fact": "Minecraft is the best-selling video game of all time."
     }
 ]
