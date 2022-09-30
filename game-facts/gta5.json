@@ -87,7 +87,8 @@
     {
         "id":22,
         "fact":"Over the course of the franchise rockstar has suffered many lawsuits from traditional citizens all over the world to celebrities."
-    },{
+    },
+    {
 
         "id": 23,
         "fact": "In GTA V, if you’re talking on the phone while driving, you won’t be able to adjust your headlights because your hand is busy."
@@ -150,6 +151,11 @@
    {
         "id":35,
         "fact": "The San Andreas Map Is Bigger Than The Entire Island Of Manhattan"
+    },
+   {
+        "id":36,
+        "fact": " If you deck someone wearing glasses, they will fly off their face."
+        "fact": "if your characters run or exercise for an extended period, the sweat will be visible on the character’s clothes"
     }
 
 ]
