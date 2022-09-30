@@ -109,6 +109,10 @@
     {
         "id": 28,
         "fact": "The crafting table in Minecraft, where players create a number of items and blocks, was formerly called workbench."
+    },
+    {
+        "id": 29,
+        "fact": "On Java Edition when a creeper is inflicted with a status effect, its explosion creates a lingering cloud of the effect."
     }
 
 ]
