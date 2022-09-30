@@ -95,7 +95,7 @@
         "id": 25,
         "fact": "The 龍王 (Dragon King) is the only skin to use hanzi characters or parentheses in its name."
     },
-	{
+	  {
 		"id": 26,
 		"fact": "CS:GO has hosted more professional esports tournaments than any other game."
 	},
@@ -148,5 +148,6 @@
     "id": 38,
     "fact": "The sentence, 'The quick brown fox jumps over the lazy dog' uses every letter in the English language."
   }
-
+    "fact": "The strongest muscle in the body is the tongue."
+  }
 ]

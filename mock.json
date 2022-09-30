@@ -1,9 +1,13 @@
 [
     {
         "id": 1,
-        "name": "",
+
+        "name": "Some game",
+
+        "name": "sSwarangi",
+
         "category": ["", ""],
-        "platform": "",
+        "platform": "Windows",
         "rating": 13,
         "casting": {
             "actors": [
@@ -15,6 +19,52 @@
         },
         "poster": "https://www.imdb.com/title/tt9814458/mediaviewer/rm976989185/",
         "episodesCount": 12,
+        "description": "",
+        "releaseDate": "45/3/546",
+        "seasons": ""
+    }
+]
+
+    {
+        "id": 2,
+
+        "name": "various game",
+
+        "name": "anuj",
+
+        "category": ["", ""],
+        "platform": "Windows",
+        "rating": 14,
+        "casting": {
+            "actors": [
+                "", ""
+            ],
+            "director": [
+                ""
+            ]
+        },
+        "poster": "https://www.imdb.com/title/tt9814458/mediaviewer/rm976989185/",
+        "episodesCount": 12,
+        "description": "",
+        "releaseDate": "45/3/546",
+        "seasons": ""
+    },
+    {
+        "id": 2,
+        "name": "",
+        "category": ["", ""],
+        "platform": "",
+        "rating": 9.5,
+        "casting": {
+            "actors": [
+                "", ""
+            ],
+            "director": [
+                ""
+            ]
+        },
+        "poster": "https://www.imdb.com/title/tt9814458/mediaviewer/rm976989185/",
+        "episodesCount": 64,
         "description": "",
         "releaseDate": "",
         "seasons": ""
