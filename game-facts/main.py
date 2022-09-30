@@ -165,6 +165,108 @@ async def read_item(limit: int = -1, random: bool = False):
         requiredFacts.append(allFacts[i])
     return requiredFacts
 
+# batmanarkhamasylum
+@app.get("/batmanarkhamasylum/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('batmanarkhamasylum.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts   
+
+
+
+#mario
+@app.get("/mario/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('mario.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts  
+
+
+
+#sonic
+@app.get("/sonic/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('sonic.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts         
+
+
+
+#assassincreed
+@app.get("/assassincreed/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('assassincreed.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts   
+
 # # The Witcher 3
 # @app.get("/thewitcher3/")
 # async def read_item(limit: int = -1, random: bool = False):

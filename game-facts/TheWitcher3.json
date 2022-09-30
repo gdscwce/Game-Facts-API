@@ -79,5 +79,29 @@
         "id": 20,
         "fact": "Don’t fight shy of saving"
     },
+    {
+        "id": 21,
+        "fact": "Brew oils and decoctions.They will come handy"
+    },
+    {
+        "id": 22,
+        "fact": "Witcher gear offers way more than normal equipments"
+    },
+    {
+        "id": 23,
+        "fact": "The story of the Witcher games takes place after the end of the books"
+    },   
+    {
+        "id": 24,
+        "fact": "Selling swords and armours will help you gain more money"
+    },
+    {
+        "id": 25,
+        "fact": "Succubus take more damage from steel swords than from silver"
+    },
+    {
+        "id": 26,
+        "fact": "Geralt also appears in the game Soulcaliber VI" 
+    },
     {}
 ]

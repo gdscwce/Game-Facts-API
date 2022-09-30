@@ -97,10 +97,11 @@
         "id": 24,
         "fact": "The havana clothes in ‘gta: vice city’ bear a powerful resemblance with the clothes worn by an extra within the 1st episode of ‘miami vice’ (1984-1990)"
     },
-    {
+     {
         "id": 25,
-        "fact": "If you break glass and walk over it, you can hear the crunching sound."
-    },
+        "fact": "In gta v with help of rockstar launcher you install modes"
+     },
+    
     {
         "id": 26,
         "fact": "n GTA III, you will find many newspapers on the ground. The top news article on them is ‘Zombie Elvis Found’ with a black and white photo of Elvis Presley."
@@ -123,8 +124,32 @@
     {
 
         "id": 30,
-        "fact": "GTA IV’s Niko Bellic is based on the character Sasha from the film Behind Enemy Lines."
+        "fact": "A Mission Featuring Michael And Trevor As A Couple Was Voiced But Eventually Cut"
+    },
+    {
+
+        "id": 31,
+        "fact": "John Marston's son wrote a book"
+    },
+    {
+
+        "id": 32,
+        
+
+        "fact": "There are no children in GTA"
+    },
+    {
+        "id":33,
+        "fact": "Only 2 Characters Of Minor Age Have Appeared Within The Series So Far."
+    },
+    {
+        "id":34,
+        "fact": "THERE ARE A FEW REAL-LIFE CELEBRITIES WHO HAVE APPEARED AS THEMSELVES WITHIN THE ‘GTA’ SERIES TO DATE. FIRSTLY, LEGENDARY MUSICIAN PHIL COLLINS APPEARED IN ‘GTA: VICE CITY STORIES’ AND YOU EVEN HAD THE OPPORTUNITY TO EXPERIENCE AN IN-GAME PERFORMANCE OF ‘IN THE AIR TONIGHT’. SECONDLY, LAZLOW JONES, A CHAT SHOW HOST WAS A VOICE CHARACTER UNTIL ‘GTA V’, WHERE HE APPEARS IN SEVERAL MISSIONS INVOLVING MICHAEL’S DAUGHTER TRACEY."
+
+    },
+   {
+        "id":35,
+        "fact": "The San Andreas Map Is Bigger Than The Entire Island Of Manhattan"
     }
-   
 
 ]

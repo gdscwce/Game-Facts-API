@@ -1,46 +1,50 @@
 [
-    {
-        "id": 1,
-        "fact": "Characters are modeled after real actors"
-    },
-    {
-        "id": 2,
-        "fact": "Yakuza/'s budget was 2.4 Billion Yen"
-    },
-    {
-        "id": 3,
-        "fact": "Real Yakuza/'s play on controller"
-    },
-    {
-        "id": 4,
-        "fact": "Few of the scenes are removed in the English version of the Yakuza series"
-    },
-    {
-        "id": 5,
-        "fact": "Yakuza had a full online based game called Spike out Digital Battle online."
-    },{
-        "id": 6,
-        "fact": "Yakuza 3 had a total of 360 characters "
-    },
-    {
-        "id": 7,
-        "fact": "Majima is one of the most fond character in Yakuza series, so famous in Yakuza kiwami they added him as an AI character which can attacks you randomly "
-    },
-    {
-        "id": 8,
-        "fact": "Yakuza: Like a Dragon is a chance based gameplay which is totally different than other Yakuza's ."
-    },
-    {
-        "id": 9,
-        "fact": "The meme reference Baka Mitai is orginally from Yakuza 0"
-    },
-    {
-        "id": 10,
-        "fact": " Kazuma Kiryus' name translates to 'Like a dragon'."
-    },
-    {
-        "id":11,
-        "fact": "The Yakuza is not illegal in Japan"
-    }
-    
+   {
+      "id":1,
+      "fact":"Characters are modeled after real actors"
+   },
+   {
+      "id":2,
+      "fact":"Yakuza/'s budget was 2.4 Billion Yen"
+   },
+   {
+      "id":3,
+      "fact":"Real Yakuza/'s play on controller"
+   },
+   {
+      "id":4,
+      "fact":"Few of the scenes are removed in the English version of the Yakuza series"
+   },
+   {
+      "id":5,
+      "fact":"Yakuza had a full online based game called Spike out Digital Battle online."
+   },
+   {
+      "id":6,
+      "fact":"Yakuza 3 had a total of 360 characters "
+   },
+   {
+      "id":7,
+      "fact":"Majima is one of the most fond character in Yakuza series, so famous in Yakuza kiwami they added him as an AI character which can attacks you randomly "
+   },
+   {
+      "id":8,
+      "fact":"Yakuza: Like a Dragon is a chance based gameplay which is totally different than other Yakuza's ."
+   },
+   {
+      "id":9,
+      "fact":"The meme reference Baka Mitai is orginally from Yakuza 0"
+   },
+   {
+      "id":10,
+      "fact":" Kazuma Kiryus' name translates to 'Like a dragon'."
+   },
+   {
+      "id":11,
+      "fact":"The Yakuza is not illegal in Japan"
+   },
+   {
+      "id":12,
+      "fact":"Sega has made its share of mistakes but one franchise it’s consistently done well with is Yakuza."
+   }
 ]
