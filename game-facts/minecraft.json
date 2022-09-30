@@ -18,7 +18,8 @@
     {
         "id": 5,
         "fact": "Even if thunderstorms strike during the day, you can sleep through them."
-    },{
+    },
+    {
         "id": 6,
         "fact": "When staring through ice, it is extremely difficult to see water in the game."
     },
@@ -109,6 +110,11 @@
     {
         "id": 28,
         "fact": "The crafting table in Minecraft, where players create a number of items and blocks, was formerly called workbench."
+    },
+
+    {
+        "id": 29,
+        "fact": "Creating trees in Minecraft uplifts the environment's appearance."
     },
     {
         "id": 29,
