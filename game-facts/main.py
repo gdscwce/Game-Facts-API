@@ -314,3 +314,49 @@ async def read_item(limit: int = -1, random: bool = False):
     for i in range(limit):
         requiredFacts.append(allFacts[i])
     return requiredFacts
+
+@app.get("/rocket-league/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('rocket-league.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts
+    
+@app.get("/clash-of-clans/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('clash-of-clans.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts
