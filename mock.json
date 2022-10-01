@@ -32,6 +32,7 @@
         "casting": {
             "actors": [
                 "", ""
+                
             ],
             "director": [
                 ""
@@ -95,6 +96,23 @@
                 "", ""
             ],
             "director": [
+                 {
+        "id": 3,
+
+        "name": "various game",
+
+        "name": "abhisek",
+
+        "category": ["", ""],
+        "platform": "Windows",
+        "rating": 14,
+        "casting": {
+            "actors": [
+                "", ""
+            ],
+            "director": [
+                ""
+            ]
                 ""
             ]
         },
