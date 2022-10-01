@@ -13,7 +13,7 @@ with open(f"game-facts/data/{name}.json", "a") as finalfile:
 with open("game-facts/main.py", "a") as pyfile:
     pyfile.write(f"""@app.get("/{name}/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('{name}.json', "r", encoding='utf-8') as json_file:
+    with open('data/{name}.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
