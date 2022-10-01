@@ -24,7 +24,7 @@ def read_root():
 # Minecraft
 @app.get("/minecraft/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('minecraft.json', "r", encoding='utf-8') as json_file:
+    with open('data/minecraft.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -48,7 +48,7 @@ async def read_item(limit: int = -1, random: bool = False):
 # GTA 5
 @app.get("/gta5/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('gta5.json', "r", encoding='utf-8') as json_file:
+    with open('data/gta5.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -96,7 +96,7 @@ async def read_item(limit: int = -1, random: bool = False):
 # Farcry 5
 @app.get("/farcry5/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('farcry5.json', "r", encoding='utf-8') as json_file:
+    with open('data/farcry5.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -120,7 +120,7 @@ async def read_item(limit: int = -1, random: bool = False):
 # CSGO
 @app.get("/csgo/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('csgo.json', "r", encoding='utf-8') as json_file:
+    with open('data/csgo.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -144,7 +144,7 @@ async def read_item(limit: int = -1, random: bool = False):
 # Siege
 @app.get("/rainbowsiege6/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('siege.json', "r", encoding='utf-8') as json_file:
+    with open('data/siege.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -168,7 +168,7 @@ async def read_item(limit: int = -1, random: bool = False):
 # batmanarkhamasylum
 @app.get("/batmanarkhamasylum/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('batmanarkhamasylum.json', "r", encoding='utf-8') as json_file:
+    with open('data/batmanarkhamasylum.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -194,7 +194,7 @@ async def read_item(limit: int = -1, random: bool = False):
 #mario
 @app.get("/mario/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('mario.json', "r", encoding='utf-8') as json_file:
+    with open('data/mario.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -220,7 +220,7 @@ async def read_item(limit: int = -1, random: bool = False):
 #sonic
 @app.get("/sonic/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('sonic.json', "r", encoding='utf-8') as json_file:
+    with open('data/sonic.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -246,7 +246,7 @@ async def read_item(limit: int = -1, random: bool = False):
 #assassincreed
 @app.get("/assassincreed/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('assassincreed.json', "r", encoding='utf-8') as json_file:
+    with open('data/assassincreed.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
@@ -294,7 +294,53 @@ async def read_item(limit: int = -1, random: bool = False):
 # Uncharted 4
 @app.get("/uncharted4/")
 async def read_item(limit: int = -1, random: bool = False):
-    with open('uncharted4.json', "r", encoding='utf-8') as json_file:
+    with open('data/uncharted4.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts
+
+@app.get("/rocket-league/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('data/rocket-league.json', "r", encoding='utf-8') as json_file:
+        allFacts = json.load(json_file, strict=False)
+    countAllFacts = len(allFacts)
+    if limit < 0 or limit >= countAllFacts:
+        if random == False:
+            return allFacts
+        Rand.shuffle(allFacts)
+        return allFacts
+    if limit == 0:
+        return []
+    if random:
+        Rand.shuffle(allFacts)
+        requiredFacts = []
+        for i in range(limit):
+            requiredFacts.append(allFacts[i])
+        return requiredFacts
+    requiredFacts = []
+    for i in range(limit):
+        requiredFacts.append(allFacts[i])
+    return requiredFacts
+    
+@app.get("/clash-of-clans/")
+async def read_item(limit: int = -1, random: bool = False):
+    with open('data/clash-of-clans.json', "r", encoding='utf-8') as json_file:
         allFacts = json.load(json_file, strict=False)
     countAllFacts = len(allFacts)
     if limit < 0 or limit >= countAllFacts:
