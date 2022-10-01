@@ -13,42 +13,90 @@
     },
     {
         "id": 4,
-        "fact": "Batman’s explosive gel is actually whipped cream"
-    },
-    {
-        "id": 5,
         "fact": "TECHNICAL LIMITATIONS ARE BEHIND MARIO’S DESIGN"
     },
     {
-        "id": 6,
+        "id": 5,
         "fact": "SUPER MARIO BROS.: THE FIRST GAME TO MOVIE ADAPTATION"
     },
     {
-        "id": 7,
+        "id": 6,
         "fact": "NINTENDO OWNS THE RIGHTS TO TWO MARIO PORN MOVIES"
     },
     {
-        "id": 8,
+        "id": 7,
         "fact": "UNIVERSAL STUDIOS ALMOST KILLED THE FRANCHISE"
     },
     {
-        "id": 9,
+        "id": 8,
         "fact": "SUPER MARIO ODYSSEY’S WEIRD ESRB RATING"
     },
     {
-        "id": 10,
+        "id": 9,
         "fact": "MARIO HAS A LAST NAME — OR DOES HE?"
     },
     {
-        "id": 11,
+        "id": 10,
         "fact": "MARIO HAS APPEARED IN OVER 200 TITLES"
     },
     {
-        "id": 12,
+        "id": 11,
         "fact": "Mario's first appearance was in Donkey Kong"
     },
     {
-        "id": 13,
+        "id": 12,
         "fact": " Goombas were the last enemy added to Super Mario Bros."
+    }
+    {
+        "id": 13,
+        "fact": "Mario is Nintendo’s number one money-maker. The franchise has a net worth of $66 billion (2022)"
+    }
+    {
+        "id": 14,
+        "fact": "Mario’s famous mustache was a design decision. It was easier than drawing a face"
+    }
+    {
+        "id": 15,
+        "fact": "Mario was the villian in Donkey Kong Jr (1982)"
+    }
+    {
+        "id": 16,
+        "fact": "The Super Mushroom was originally called the Magic Mushroom."
+    }
+    {
+        "id": 17,
+        "fact": "Shigeru Miyamoto designed Mario, along with other classic Nintendo figures"
+    }
+    {
+        "id": 18,
+        "fact": "Koopers name is a pun on Cooper, but with a K for Koopa"
+    }
+    {
+        "id": 19,
+        "fact": "Mario was originally called Jumpman"
+    }
+    {
+        "id": 20,
+        "fact": "The first Mario game release was on the NES"
+    }
+    {
+        "id": 21
+        "fact": "In the nineties Mario was a more recognizable name than Mickey Mouse among American kinds"
+    }
+    {
+        "id": 22,
+        "fact": "Yoshi's full name is T. Yoshisaur Munchakoopas"
+    }
+    {
+        "id": 23,
+        "fact": "Mario was originally going to shoot guns and ride a rocket"
+    }
+    {
+        "id": 24,
+        "fact": "All toads are genderless"
+    }
+    {
+        "id": 25,
+        "fact": "Super Mario Bros. is stored on a 256-kilobit cartridge"
     }
 ]
