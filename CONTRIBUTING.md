@@ -1,2 +1,3 @@
 #### How to Contribute:
-- The game facts are in the form of JSON. Do add with caution that it does not break the code. Else the PR would be reported.
+- Contribute to code by adding new features to the api (main.py)
+- Contribute to the API by adding facts about a new game,  Read adding.py in the adder folder.
