@@ -1,7 +1,8 @@
+from urllib import response
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import filehandler
-from random import choices
+from random import sample
 app = FastAPI(
     title="Game facts API",
     description="Fetch interesting facts about popular games",
@@ -38,9 +39,25 @@ async def fact(game: str or None = None, limit: int = 1):
             response.extend(tempresponse)
         else:
             for index,games in enumerate(game_list):
-                response.append(choices(tempresponse[index],k=limit))
+                response.append(sample(tempresponse[index],k=limit))
     except Exception as e:
         raise HTTPException(500, e)
-    
-
     return response
+
+@app.get("/fact/random")
+async def random_fact(limit: int=1):
+    response = []
+    tempresponse = []
+    try:
+        handler = filehandler.random_file()
+        facts, count,game = handler[0], handler[1], handler[2]
+        response.append(game)
+        tempresponse.append(facts)
+        print(tempresponse)
+        if limit == -1 or count<limit:
+            response.extend(tempresponse)
+        else:
+            response.append(sample(tempresponse[0], k=limit))
+    except Exception as e:
+        raise HTTPException(500, e)
+    return response    
