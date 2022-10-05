@@ -17,9 +17,7 @@
 
 <br/>
 
-## Setting up Virtual Environments
-
-
+## Setting up Virtual Environment
 
 <br>
 
@@ -42,7 +40,7 @@ Now create a virtual environment
 python3 -m venv {name_of_virtual_environment}
 ```
   
-Active your virtual environment:    
+Activate your virtual environment:    
 ```bash
 source {name_of_virtual_environment}/bin/activate
 ```
