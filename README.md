@@ -32,6 +32,7 @@ Please adhere to this project's `code of conduct`.
 | Method   |      Path      |  Description |
 |----------|:-------------:|------:|
 | **GET** | `/fact/game={games}?limit={limit}` | Fetch facts about one or multiple games. |
+| **GET** | `/fact/random?limit={limit}` | Fetch facts(s) about a random game. |
 
-### Games must be seperated by "&"
+#### Games must be seperated by "&"
 ----
