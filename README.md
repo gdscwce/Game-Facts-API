@@ -1,10 +1,10 @@
 <h1 align=center> Game Facts API </h1>
 <h1 align=center>Helps users fetch facts about any games to integrate into their own games, quizzes or applications.</h1>
 <p align="center">
-  <img src="https://img.shields.io/github/license/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor">
-  <img src="https://img.shields.io/github/stars/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor">
-  <img src="https://img.shields.io/github/forks/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor">
-  <img src="https://img.shields.io/github/issues/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor">
+  <a href="https://github.com/gdscwce/Game-Facts-API/blob/main/LICENSE"><img src="https://img.shields.io/github/license/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor"></a>
+  <a href="https://github.com/gdscwce/Game-Facts-API/"><img src="https://img.shields.io/github/stars/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor"></a>
+  <a href="https://github.com/gdscwce/Game-Facts-API/network/members"><img src="https://img.shields.io/github/forks/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor"></a>
+  <a href="https://github.com/gdscwce/Game-Facts-API/issues"><img src="https://img.shields.io/github/issues/gdscwce/Game-Facts-API?style=for-the-badge&logo=appveyor"></a>
   </p>
 
 <br>
@@ -66,11 +66,9 @@ uvicorn main:app --reload
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See [CONTRIBUTING.md](https://github.com/gdscwce/Game-Facts-API/blob/main/CONTRIBUTING.md) for ways to get started.
 
-Please adhere to this project's `code of conduct`.
-
-
+Please adhere to this project's [CODE OF CONDUCT](https://github.com/gdscwce/Game-Facts-API/blob/main/CODE_OF_CONDUCT.md).
 
 
 ## Endpoints
